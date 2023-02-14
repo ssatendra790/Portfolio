@@ -1,3 +1,6 @@
+# Status
+I'm currently working on it and deployed link will be added soon!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

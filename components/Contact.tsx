@@ -21,28 +21,28 @@ function Contact({}: Props) {
       <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">Contact</h3>
 
       <div className="flex flex-col space-y-2">
-        <h4 className="text-2xl font-semibold text-center">
+        <h4 className="text-xl font-semibold text-center">
           I got what you are looking for. <span className="decoration-[#F7AB0A] underline">Lets Talk.</span>
         </h4>
 
-        <div className="space-y-2">
+        <div className="space-y-2 pt-8">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-xl">+916387046662</p>
+            <p className="text-base font-serif">+916387046662</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-xl">ssatendra790@gmail.com</p>
+            <p className="text-base font-serif">ssatendra790@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-xl">Kanpur Nagar</p>
+            <p className="font-serif text-base">Kanpur Nagar</p>
           </div>
         </div>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto pt-8">
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
             <input {...register('name')} placeholder="Name" className="contactInput" type="text" />
             <input {...register('email')} placeholder="Email" className="contactInput" type="email" />

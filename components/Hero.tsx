@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from '../components/BackgroundCircles'
+import MyPhoto from '../Assets/Satendra_photo_final.png';
 import Image from 'next/image';
 
 type Props = {}
@@ -13,7 +14,6 @@ export default function Hero({ }: Props) {
             "<A Web Developer/>",
             "<Algorithm Aficionado>",
             "<iCompetitive Programmer/>",
-            // "<iCode.tsx>",
             "<iLoveCoffee>"],
         loop: true,
         delaySpeed: 2000
@@ -21,7 +21,7 @@ export default function Hero({ }: Props) {
     return (
         <div className='h-screen flex flex-col space-y- items-center justify-center text-center overflow-hidden'>
             <BackgroundCircles />
-            <img className='relative rounded-full h-32 w-32 mx-auto object-cover' src="https://www.linkpicture.com/q/Photo-2.jpeg" alt="satendra" />
+            <Image className='relative rounded-full h-32 w-32 mx-auto object-cover' src={MyPhoto} alt="satendra" />
             <div className='z-20'>
                 <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Undergraduate</h2>
                 <h1 className='text-5xl lg:text-5xl font-semibold px-10'>

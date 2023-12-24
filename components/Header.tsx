@@ -21,9 +21,9 @@ function Header({ }: Props) {
         transition={{
           duration: 1.5,
         }} className="flex flex-row items-center">
-        {/* Social Icons Here */}
         <SocialIcon url="https://www.linkedin.com/in/satendrasinghgaur/" fgColor='gray' bgColor='transparent' target='_blank'/>
         <SocialIcon url="https://www.instagram.com/stndr.unsigned/" fgColor='gray' bgColor='transparent' target='_blank'/>
+        <SocialIcon url="https://github.com/ssatendra790" fgColor='gray' bgColor='transparent' target='_blank'/>
         <SocialIcon url="https://codeforces.com/profile/StndRogue" fgColor='gray' bgColor='transparent' target='_blank'/>
         <SocialIcon url="https://leetcode.com/StndRogue/" fgColor='gray' bgColor='transparent' target='_blank'/>
       </motion.div>
@@ -44,11 +44,11 @@ function Header({ }: Props) {
           className="flex flex-row items-center text-gray-300 cursor-pointer">
           <SocialIcon className="cursor-pointer" network="email" fgColor="gray" bgColor="transparent" />
           <Link href='#contact'>
-          <p className="uppercase hidden md:inline-flex text-sm text-gray-400">Get in Touch</p>
+            <p className="uppercase hidden md:inline-flex text-sm text-gray-400">Get in Touch</p>
           </Link>
         </motion.div>
     </header>
   )
-}
+} 
 
 export default Header

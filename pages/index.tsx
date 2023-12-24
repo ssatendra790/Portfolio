@@ -10,11 +10,12 @@ import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import Link from 'next/link';
 
+
 export default function Home() {
   return (
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 z-0'>
       <Head>
-        <title>Satendra Portfolio</title>
+        <title> Satendra Singh </title>
       </Head>
       <Header />
       <section id="hero" className='snap-center'>
@@ -38,7 +39,7 @@ export default function Home() {
       <Link href="#hero">
         <footer className='sticky bottom-5 w-full cursor-pointer'>
           <div className='flex items-center justify-center'>
-            <img className='h-6 w-6 rounded-full filter grayscale hover:grayscale-0' src="https://www.linkpicture.com/q/top_8.png" alt="img" />
+            <img className='h-6 w-6 rounded-full filter grayscale hover:grayscale-0' src="https://i.ibb.co/MpBTjcN/goku.jpg" alt="img" />
           </div>
         </footer>
       </Link>

@@ -31,7 +31,7 @@ function About({}: Props) {
             <h4 className='text-3xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]/50'>Little</span> background</h4>
             <p className='text-base'>Greetings! I am <b style={{color:'#F7AB0A'}}>Satendra Singh</b>, a dynamic and ambitious final-year B.Tech student specializing in Computer Science (AI & ML). My academic journey has equipped me with a robust foundation, while my passion for competitive programming has finely honed my problem-solving prowess. Complementing this technical acumen is my proficiency in frontend development, where I channel my creativity to craft visually captivating web interfaces. <br /> <br/>
 Allow me to present my comprehensive resume for your perusal <SwipeDownAltIcon/></p>
-            <a href='https://drive.google.com/file/d/12QvofFsP9U9By1XLvqW7SMzAH1BQineQ/view?usp=sharing' target='_blank'> <button className='bg-[#ff9b20] p-2 text-lg hover:bg-[#ff9b20]/90 rounded-md text-gray-100'> <DownloadForOfflineIcon/> Download </button> </a>
+            <a href='https://drive.google.com/file/d/12QvofFsP9U9By1XLvqW7SMzAH1BQineQ/view?usp=sharing' > <button className='bg-[#ff9b20] p-2 text-lg hover:bg-[#ff9b20]/90 rounded-md text-gray-100'> <DownloadForOfflineIcon/> Download </button> </a>
         </div>
     </motion.div>
   )

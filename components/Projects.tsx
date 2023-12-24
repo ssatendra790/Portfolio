@@ -115,7 +115,7 @@ function Projects({}: Props) {
             <div className="space-y-2 px-0 md:px-10 max-w-6xl">
               <h4 className="text-2xl font-semibold text-center flex justify-center">
                 <span className="underline decoration-[#F7AB0A]">Featured Project {project.id} of {projects.length} </span> <span>: </span>
-                {project.title} <a className='px-2 text-[#e8fd00]' href={project.github} target='_blank'> <GitHubIcon/> </a> <a className='px-2 text-[#008bfd]' href={project.visit} target='_blank'> <LaunchIcon/> </a>
+                {project.title} <a className='px-2 text-[#e8fd00]' href={project.github} > <GitHubIcon/> </a> <a className='px-2 text-[#008bfd]' href={project.visit} > <LaunchIcon/> </a>
               </h4>
 
               <p className="text-lg text-center md:text-left">{project.description}</p>
